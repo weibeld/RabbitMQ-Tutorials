@@ -10,7 +10,13 @@ There are different ways to connect to a RabbitMQ server in different programmin
 
 ### Java
 
-The Java implementations use the RabbitMQ [Java Client Library](http://www.rabbitmq.com/java-client.html), which you can find as `com.rabbitmq:amqp-client:X.X.X` on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.rabbitmq%22%20a%3A%22amqp-client%22).
+The Java implementations use the RabbitMQ [Java Client Library](http://www.rabbitmq.com/java-client.html), which you can find as
+
+~~~
+com.rabbitmq:amqp-client:X.X.X
+~~~
+
+on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.rabbitmq%22%20a%3A%22amqp-client%22).
 
 Here is the [Javadoc API documentation](http://www.rabbitmq.com/releases/rabbitmq-java-client/current-javadoc/index.html?overview-summary.html).
 
