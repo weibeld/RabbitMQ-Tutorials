@@ -10,13 +10,13 @@ There are different ways to connect to a RabbitMQ server in different programmin
 
 ### Java
 
-The Java implementations use the RabbitMQ [Java Client Library](http://www.rabbitmq.com/java-client.html), which you can find as `com.rabbitmq:amqp-client` on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.rabbitmq%22%20a%3A%22amqp-client%22).
+The Java implementations use the RabbitMQ [Java Client Library](http://www.rabbitmq.com/java-client.html), which you can find as `com.rabbitmq:amqp-client:X.X.X` on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.rabbitmq%22%20a%3A%22amqp-client%22).
 
 Here is the [Javadoc API documentation](http://www.rabbitmq.com/releases/rabbitmq-java-client/current-javadoc/index.html?overview-summary.html).
 
 ### Python
 
-The Python implementations use the [pika](https://pika.readthedocs.io) package. You can install it with `pip install pika`.
+The Python implementations use the [pika](https://pika.readthedocs.io/en/latest/) package. You can install it with `pip install pika`.
 
 ## Connect to RabbitMQ Server
 
