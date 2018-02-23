@@ -99,7 +99,11 @@ That is, just set the host to `localhost` and no other parameters are needed.
 connection = pika.BlockingConnection()
 ~~~
 
-That is, no need to specify any connection parameters.
+This is equivalent to:
+
+~~~python
+connection = pika.BlockingConnection(pika.URLParameters('amqp://guest:guest@localhost:5672/'))
+~~~
 
 ## Note
 
