@@ -16,7 +16,7 @@ amqp.connect(uri, function(err, conn) {
       var num = 10;
       console.log(' [x] Requesting fib(%d)', num);
       // Register callback function for handling response from server
-      ch.consume(queueName.queue, function(msg) {
+      ch.consume(q.queue, function(msg) {
           if (msg.properties.correlationId == correlationId) {
             console.log(' [.] Got %s', msg.content.toString());
             setTimeout(function() { conn.close(); process.exit(0) }, 500);
