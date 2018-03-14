@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 
+// Connect to RabbitMQ server on localhost, listen on queue. For each consumed 
+// message, send a reply back to the queue indicated within the message.
+
 var amqp = require('amqplib');
 var queue = 'hello';
 var reply = 'Hi back';
